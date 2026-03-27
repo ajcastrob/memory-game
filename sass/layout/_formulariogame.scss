@@ -48,9 +48,12 @@
   }
 }
 
-p.text-secundario {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-size: 500;
-  color: ab.$letter-purple;
+.div-texto-secundario {
+  p.text-secundario {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    color: ab.$letter-purple;
+  }
 }
