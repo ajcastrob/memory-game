@@ -1,5 +1,14 @@
 import { defineConfig } from "vite";
+import { resolve } from "path";
 
 export default defineConfig({
-  base: "./", //Usa rutas relativas en los enlaces generados en html
+  base: "./",
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, "index.html"),
+        game: resolve(__dirname, "game.html"),
+      },
+    },
+  },
 });
