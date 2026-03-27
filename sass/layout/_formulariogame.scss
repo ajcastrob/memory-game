@@ -1,0 +1,56 @@
+@use "../abstracts" as ab;
+
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  margin: auto;
+  gap: 28px;
+  width: 340px;
+  height: 380px;
+  border-radius: 48px;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  box-shadow: 4px 4px 4px ab.$light-purple;
+  text-align: center;
+
+  .image-trofeo {
+    margin-bottom: 20px;
+    img {
+      width: 20%;
+    }
+  }
+
+  .span-texto {
+    margin-bottom: 25px;
+    color: ab.$letter-purple;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .name-user {
+    margin-bottom: 40px;
+    input {
+      width: 260px;
+      height: 64px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border: 0px solid ab.$light-purple;
+      box-shadow: 0px 1px 1px ab.$light-purple;
+      padding: 20px;
+      &::placeholder {
+        color: ab.$letter-purple;
+        letter-spacing: 1px;
+        text-align: left;
+      }
+    }
+  }
+}
+
+p.text-secundario {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 500;
+  color: ab.$letter-purple;
+}

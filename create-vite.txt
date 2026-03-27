@@ -1,0 +1,19 @@
+#Para crear un proyecto con Vite. 
+1. npm create vite@latest nombre_proyecto
+2. cd nombre_proyecto
+3.  npm install o npm i (instalar dependencias)
+4.  npm run dev
+5. npm i sass --save-dev (instalar sass como dev dependecies)
+6. Crear la carpeta styles dentro de src
+7. Importar los estilos al main.js (import "./styles/main.scss";)
+8. Crear en el proyecto el vite.config.js
+9. Agregar al vite.config.js: 
+
+import { defineConfig } from "vite";
+
+export default defineConfig({
+    base: "./", //Usa rutas relativas en los enlaces generados en html 
+})
+
+Nota: Para construir el proyecto npm run build
+ 

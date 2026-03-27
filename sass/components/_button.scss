@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+@use "../abstracts" as ab;
+
+button {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 8px 24px 8px 34px;
+  border-radius: 20px;
+  color: ab.$Dark-brown;
+  background-color: ab.$brown;
+  border: none;
+  background-image: url("../../assets/reiniciar.svg");
+  background-repeat: no-repeat;
+  background-position: center left 12px;
+  background-size: 10%;
+}
+
+.btn-wrapper {
+  .btn-game {
+    background-image: url("../../assets/play.svg");
+    background-size: 5%;
+    padding: 8px 34px 8px 24px;
+    background-position: center right 12px;
+  }
+}

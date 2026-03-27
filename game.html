@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./notifications/fontawesome-free-7.2.0-web/css/all.css"
+    />
+    <link rel="stylesheet" href="./notifications/style.css" />
+    <script src="./notifications/index.var.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="cabecera">
+      <header class="header-principal">
+        <nav class="nav-principal">
+          <ul>
+            <li>
+              <img src="./assets/brain.svg" alt="brain" />
+            </li>
+            <li>
+              <img src="./assets/logo.svg" alt="logo" />
+            </li>
+            <li>
+              <button id="btn">Reiniciar</button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="image-fun">
+        <img src="./assets/memory.svg" alt="memory" />
+      </div>
+      <div class="titulos">
+        <h1>Memory Fun!</h1>
+        <p>Entrena tu mente jugando</p>
+      </div>
+      <div class="time">
+        <img src="./assets/reloj.svg" alt="reloj" />
+        <p>TIEMPO</p>
+        <h2>
+          <span id="timer">00:00:00</span>
+        </h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="border-game">
+        <div class="memory-card" data-framework="angular">
+          <img src="./assets/book.svg" alt="angular" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+        <div class="memory-card" data-framework="angular">
+          <img src="./assets/book.svg" alt="angular" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+        <div class="memory-card" data-framework="aurelia">
+          <img src="./assets/plant.svg" alt="aurelia" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+        <div class="memory-card" data-framework="aurelia">
+          <img src="./assets/plant.svg" alt="aurelia" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+        <div class="memory-card" data-framework="backbone">
+          <img src="./assets/fire.svg" alt="backbone" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+        <div class="memory-card" data-framework="backbone">
+          <img src="./assets/fire.svg" alt="backbone" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+        <div class="memory-card" data-framework="ember">
+          <img src="./assets/glasses.svg" alt="ember" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+        <div class="memory-card" data-framework="ember">
+          <img src="./assets/glasses.svg" alt="ember" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+        <div class="memory-card" data-framework="react">
+          <img src="./assets/pen.svg" alt="react" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+        <div class="memory-card" data-framework="react">
+          <img src="./assets/pen.svg" alt="react" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+
+        <div class="memory-card" data-framework="vue">
+          <img src="./assets/paper.svg" alt="vue" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+        <div class="memory-card" data-framework="vue">
+          <img src="./assets/paper.svg" alt="vue" class="front-face" />
+          <img src="./assets/backcard.svg" alt="js-badge" class="back-face" />
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

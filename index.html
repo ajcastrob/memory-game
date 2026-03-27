@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./notifications/fontawesome-free-7.2.0-web/css/all.css"
+    />
+    <link rel="stylesheet" href="./notifications/style.css" />
+    <script src="./notifications/index.var.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Memory Game</title>
+  </head>
+  <body class="main-page-body">
+    <header class="main-page-div">
+      <nav class="nav-page-principal">
+        <ul>
+          <li>
+            <img src="./assets/brain.svg" alt="brain" />
+          </li>
+          <li>
+            <img src="./assets/logo.svg" alt="logo" />
+          </li>
+        </ul>
+      </nav>
+      <div class="decord-card">
+        <img src="./assets/cards.svg" alt="cards" class="img-card" />
+      </div>
+    </header>
+
+    <main class="main-page-principal">
+      <div class="description-title-home">
+        <h1 class="title-pricipal-page">Create Game</h1>
+        <p class="subtitle-principal-page">Play with joy</p>
+      </div>
+
+      <div class="contenedor-formulario">
+        <form
+          action="#"
+          class="formulario"
+          method="get"
+          name="game"
+          id="game-form"
+        >
+          <div class="image-trofeo">
+            <img src="./assets/win.svg" alt="trofeo" class="emogi-trofeo" />
+          </div>
+          <div class="span-texto">
+            <span class="desafio">Prepárate para el desafío</span>
+          </div>
+          <div class="name-user">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Tu nombre"
+            />
+          </div>
+          <div class="btn-wrapper">
+            <button class="btn-game" type="submit">Comienza a jugar</button>
+          </div>
+        </form>
+        <p class="text-secundario">Entrena tu mente hoy</p>
+      </div>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

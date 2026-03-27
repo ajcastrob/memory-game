@@ -1,0 +1,57 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+@use "../abstracts" as ab;
+
+.header-principal {
+  margin-bottom: 50px;
+  .nav-principal {
+    padding: 30px;
+    background-color: ab.$white;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @include ab.reset-list();
+    }
+  }
+}
+
+.image-fun {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  align-items: center;
+  background-color: ab.$white;
+  box-shadow:
+    5px 5px 15px 5px #ff8080,
+    -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85,
+    12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff,
+    -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.titulos {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    color: ab.$purple;
+    font-weight: 900;
+    font-size: 50px;
+    transform: skewy(-2deg);
+  }
+  p {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 14px;
+  }
+}

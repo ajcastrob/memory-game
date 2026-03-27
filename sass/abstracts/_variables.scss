@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+///
+///
+
+///Colors
+$background-color: #f8f1fe;
+$white: #ffffff;
+$brown: #ffdcc1;
+$Dark-brown: #6c3a00;
+$purple: #6833ea;
+$background-box: #e9e8f8;
+$light-purple: #cdbdff;
+$letter-purple: #a7a0b8;
+$background-form: #191721;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+/// Breakpoints map
+/// Breakpoints map
+$bp-tablet: 768px;
+$bp-tablet-horizontal: 1024px;
+$bp-desktop: 1200px;
+$bp-desktop-xl: 1440px;
+$bp-desktop-primary: 1900px;
+
+$tablet: $bp-tablet;
+$tablethorizontal: $bp-tablet-horizontal;
+$desktop: $bp-desktop;
+$desktop-xl: $bp-desktop-xl;
+$desktop-primary: $bp-desktop-primary;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'https://cdn.example.com/assets/';
+$base-url: "/assets/" !default;
