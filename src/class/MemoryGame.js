@@ -1,5 +1,3 @@
-import { info } from "sass";
-
 let nameUser = localStorage.getItem("nameUser");
 nameUser = JSON.parse(nameUser);
 
