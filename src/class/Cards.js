@@ -1,7 +1,7 @@
 //Seleccionar el tablero
 
 function createCard() {
-  const framework = ["angular", "aurelia", "backbone", "ember", "react", "vue"];
+  const framework = ["bunny", "dog", "feet", "rayo", "ice", "person"];
   const frameworks = [...framework, ...framework];
   frameworks.sort();
   const borderGame = document.querySelector(".border-game");
@@ -20,8 +20,8 @@ function createCard() {
 
     //crear el reverso.
     const img2 = document.createElement("img");
-    img2.src = "./assets/js-badge.svg";
-    img2.alt = "js-badge";
+    img2.src = "./assets/backcard.svg";
+    img2.alt = "backcard";
     img2.classList.add("back-face");
 
     divCard.append(img1);
@@ -30,8 +30,8 @@ function createCard() {
     borderGame.append(divCard);
   }
 
-  borderGame.style.height = "300px";
-  borderGame.style.width = "100%";
+  borderGame.style.height = "400px";
+  borderGame.style.width = "70%";
   borderGame.style.marginBottom = "400px";
 
   return borderGame;

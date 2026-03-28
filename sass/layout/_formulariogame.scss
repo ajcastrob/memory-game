@@ -38,6 +38,9 @@
       border-top-right-radius: 20px;
       border: 0px solid ab.$light-purple;
       box-shadow: 0px 1px 1px ab.$light-purple;
+      background-image: url("../../assets/huella.svg");
+      background-repeat: no-repeat;
+      background-position: right 15px center;
       padding: 20px;
       &::placeholder {
         color: ab.$letter-purple;

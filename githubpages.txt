@@ -1,0 +1,20 @@
+npm install --save-dev gh-pages
+
+//Edita el package.json y agrega dos scripts:
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+
+//Crear el repositorio en GitHub (si aún no lo tienes)
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/TU_USUARIO/memory-game.git
+git push -u origin main
+
+//Deplegar
+npm run deploy
