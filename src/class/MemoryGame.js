@@ -1,12 +1,7 @@
 import createCard from "./Cards";
 
-//Obtener el nombre del localStorage y agregarlo al span y a las notificaciones.
 let nameUser = localStorage.getItem("nameUser");
 nameUser = JSON.parse(nameUser);
-let titleUser = document.getElementById("title-info-user");
-let span = document.createElement("span");
-span.textContent = " " + nameUser.name + "!";
-titleUser.appendChild(span);
 
 //Clase del juego de memoria.
 class MemoryGame {
